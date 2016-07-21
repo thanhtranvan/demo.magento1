@@ -1,0 +1,253 @@
+2016-07-20T04:47:52+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Mage_Bluecom_Magento1_Block_Index' in /var/www/html/japan.demo/app/Mage.php:595
+Stack trace:
+#0 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('bluecom_magento...', Array)
+#2 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('bluecom_magento...', 'magento1_index')
+#3 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('bluecom_magento...', 'magento1_index')
+#4 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /var/www/html/japan.demo/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 /var/www/html/japan.demo/app/code/core/Mage/Core/Controller/Varien/Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 /var/www/html/japan.demo/app/code/local/Bluecom/Magento1/controllers/IndexController.php(7): Mage_Core_Controller_Varien_Action->loadLayout(Array)
+#9 /var/www/html/japan.demo/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Bluecom_Magento1_IndexController->indexAction()
+#10 /var/www/html/japan.demo/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#11 /var/www/html/japan.demo/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#13 /var/www/html/japan.demo/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#14 /var/www/html/japan.demo/index.php(84): Mage::run('', 'store')
+#15 {main}
+2016-07-20T06:41:08+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Mage_Bluecom_Magento1_Block_Index' in /var/www/html/japan.demo/app/Mage.php:595
+Stack trace:
+#0 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('bluecom_magento...', Array)
+#2 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('bluecom_magento...', 'magento1_index')
+#3 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('bluecom_magento...', 'magento1_index')
+#4 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /var/www/html/japan.demo/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 /var/www/html/japan.demo/app/code/core/Mage/Core/Controller/Varien/Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 /var/www/html/japan.demo/app/code/local/Bluecom/Magento1/controllers/IndexController.php(7): Mage_Core_Controller_Varien_Action->loadLayout(Array)
+#9 /var/www/html/japan.demo/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Bluecom_Magento1_IndexController->indexAction()
+#10 /var/www/html/japan.demo/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#11 /var/www/html/japan.demo/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#13 /var/www/html/japan.demo/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#14 /var/www/html/japan.demo/index.php(84): Mage::run('', 'store')
+#15 {main}
+2016-07-20T06:49:29+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Mage_Bluecom_Magento1_Block_Index' in /var/www/html/japan.demo/app/Mage.php:595
+Stack trace:
+#0 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('bluecom_magento...', Array)
+#2 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('bluecom_magento...', 'magento1_index')
+#3 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('bluecom_magento...', 'magento1_index')
+#4 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /var/www/html/japan.demo/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 /var/www/html/japan.demo/app/code/core/Mage/Core/Controller/Varien/Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 /var/www/html/japan.demo/app/code/local/Bluecom/Magento1/controllers/IndexController.php(7): Mage_Core_Controller_Varien_Action->loadLayout(Array)
+#9 /var/www/html/japan.demo/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Bluecom_Magento1_IndexController->indexAction()
+#10 /var/www/html/japan.demo/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#11 /var/www/html/japan.demo/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#13 /var/www/html/japan.demo/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#14 /var/www/html/japan.demo/index.php(84): Mage::run('', 'store')
+#15 {main}
+2016-07-20T06:50:09+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Bluecom_Magento1_Block_Index' in /var/www/html/japan.demo/app/Mage.php:595
+Stack trace:
+#0 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('magento1/index', Array)
+#2 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('magento1/index', 'magento1_index')
+#3 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('magento1/index', 'magento1_index')
+#4 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /var/www/html/japan.demo/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 /var/www/html/japan.demo/app/code/core/Mage/Core/Controller/Varien/Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 /var/www/html/japan.demo/app/code/local/Bluecom/Magento1/controllers/IndexController.php(7): Mage_Core_Controller_Varien_Action->loadLayout(Array)
+#9 /var/www/html/japan.demo/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Bluecom_Magento1_IndexController->indexAction()
+#10 /var/www/html/japan.demo/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#11 /var/www/html/japan.demo/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#13 /var/www/html/japan.demo/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#14 /var/www/html/japan.demo/index.php(84): Mage::run('', 'store')
+#15 {main}
+2016-07-20T06:50:11+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Bluecom_Magento1_Block_Index' in /var/www/html/japan.demo/app/Mage.php:595
+Stack trace:
+#0 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('magento1/index', Array)
+#2 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('magento1/index', 'magento1_index')
+#3 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('magento1/index', 'magento1_index')
+#4 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /var/www/html/japan.demo/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 /var/www/html/japan.demo/app/code/core/Mage/Core/Controller/Varien/Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 /var/www/html/japan.demo/app/code/local/Bluecom/Magento1/controllers/IndexController.php(7): Mage_Core_Controller_Varien_Action->loadLayout(Array)
+#9 /var/www/html/japan.demo/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Bluecom_Magento1_IndexController->indexAction()
+#10 /var/www/html/japan.demo/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#11 /var/www/html/japan.demo/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#13 /var/www/html/japan.demo/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#14 /var/www/html/japan.demo/index.php(84): Mage::run('', 'store')
+#15 {main}
+2016-07-20T06:51:07+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Mage_Bluecom_Magento1_Block_Index' in /var/www/html/japan.demo/app/Mage.php:595
+Stack trace:
+#0 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('bluecom_magento...', Array)
+#2 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('bluecom_magento...', 'magento1_index')
+#3 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('bluecom_magento...', 'magento1_index')
+#4 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /var/www/html/japan.demo/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 /var/www/html/japan.demo/app/code/core/Mage/Core/Controller/Varien/Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 /var/www/html/japan.demo/app/code/local/Bluecom/Magento1/controllers/IndexController.php(7): Mage_Core_Controller_Varien_Action->loadLayout(Array)
+#9 /var/www/html/japan.demo/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Bluecom_Magento1_IndexController->indexAction()
+#10 /var/www/html/japan.demo/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#11 /var/www/html/japan.demo/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#13 /var/www/html/japan.demo/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#14 /var/www/html/japan.demo/index.php(84): Mage::run('', 'store')
+#15 {main}
+2016-07-20T06:51:09+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Mage_Bluecom_Magento1_Block_Index' in /var/www/html/japan.demo/app/Mage.php:595
+Stack trace:
+#0 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('bluecom_magento...', Array)
+#2 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('bluecom_magento...', 'magento1_index')
+#3 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('bluecom_magento...', 'magento1_index')
+#4 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /var/www/html/japan.demo/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 /var/www/html/japan.demo/app/code/core/Mage/Core/Controller/Varien/Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 /var/www/html/japan.demo/app/code/local/Bluecom/Magento1/controllers/IndexController.php(7): Mage_Core_Controller_Varien_Action->loadLayout(Array)
+#9 /var/www/html/japan.demo/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Bluecom_Magento1_IndexController->indexAction()
+#10 /var/www/html/japan.demo/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#11 /var/www/html/japan.demo/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#13 /var/www/html/japan.demo/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#14 /var/www/html/japan.demo/index.php(84): Mage::run('', 'store')
+#15 {main}
+2016-07-20T06:51:09+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Mage_Bluecom_Magento1_Block_Index' in /var/www/html/japan.demo/app/Mage.php:595
+Stack trace:
+#0 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('bluecom_magento...', Array)
+#2 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('bluecom_magento...', 'magento1_index')
+#3 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('bluecom_magento...', 'magento1_index')
+#4 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /var/www/html/japan.demo/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 /var/www/html/japan.demo/app/code/core/Mage/Core/Controller/Varien/Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 /var/www/html/japan.demo/app/code/local/Bluecom/Magento1/controllers/IndexController.php(7): Mage_Core_Controller_Varien_Action->loadLayout(Array)
+#9 /var/www/html/japan.demo/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Bluecom_Magento1_IndexController->indexAction()
+#10 /var/www/html/japan.demo/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#11 /var/www/html/japan.demo/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#13 /var/www/html/japan.demo/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#14 /var/www/html/japan.demo/index.php(84): Mage::run('', 'store')
+#15 {main}
+2016-07-20T06:51:53+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: Mage_Bluecom_Magento1_Block_Index' in /var/www/html/japan.demo/app/Mage.php:595
+Stack trace:
+#0 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('bluecom_magento...', Array)
+#2 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('bluecom_magento...', 'magento1_index')
+#3 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('bluecom_magento...', 'magento1_index')
+#4 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /var/www/html/japan.demo/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#7 /var/www/html/japan.demo/app/code/core/Mage/Core/Controller/Varien/Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#8 /var/www/html/japan.demo/app/code/local/Bluecom/Magento1/controllers/IndexController.php(7): Mage_Core_Controller_Varien_Action->loadLayout(Array)
+#9 /var/www/html/japan.demo/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Bluecom_Magento1_IndexController->indexAction()
+#10 /var/www/html/japan.demo/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#11 /var/www/html/japan.demo/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#12 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#13 /var/www/html/japan.demo/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#14 /var/www/html/japan.demo/index.php(84): Mage::run('', 'store')
+#15 {main}
+2016-07-20T07:46:24+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: MagentoGems_Ajax_Block_Cart_Sidebar' in /var/www/html/japan.demo/app/Mage.php:595
+Stack trace:
+#0 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('checkout/cart_s...', Array)
+#2 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('checkout/cart_s...', 'minicart_conten...')
+#3 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('checkout/cart_s...', 'minicart_conten...')
+#4 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#7 /var/www/html/japan.demo/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#8 /var/www/html/japan.demo/app/code/core/Mage/Catalog/Helper/Product/View.php(73): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#9 /var/www/html/japan.demo/app/code/core/Mage/Catalog/Helper/Product/View.php(144): Mage_Catalog_Helper_Product_View->initProductLayout(Object(Mage_Catalog_Model_Product), Object(Mage_Catalog_ProductController))
+#10 /var/www/html/japan.demo/app/code/core/Mage/Catalog/controllers/ProductController.php(132): Mage_Catalog_Helper_Product_View->prepareAndRender(2, Object(Mage_Catalog_ProductController), Object(Varien_Object))
+#11 /var/www/html/japan.demo/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Catalog_ProductController->viewAction()
+#12 /var/www/html/japan.demo/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('view')
+#13 /var/www/html/japan.demo/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#14 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#15 /var/www/html/japan.demo/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#16 /var/www/html/japan.demo/index.php(84): Mage::run('', 'store')
+#17 {main}
+2016-07-20T07:46:28+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: MagentoGems_Ajax_Block_Cart_Sidebar' in /var/www/html/japan.demo/app/Mage.php:595
+Stack trace:
+#0 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('checkout/cart_s...', Array)
+#2 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('checkout/cart_s...', 'minicart_conten...')
+#3 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('checkout/cart_s...', 'minicart_conten...')
+#4 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#7 /var/www/html/japan.demo/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#8 /var/www/html/japan.demo/app/code/core/Mage/Core/Controller/Varien/Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#9 /var/www/html/japan.demo/app/code/local/Bluecom/Magento1/controllers/CartController.php(52): Mage_Core_Controller_Varien_Action->loadLayout()
+#10 /var/www/html/japan.demo/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Bluecom_Magento1_CartController->addAction()
+#11 /var/www/html/japan.demo/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('add')
+#12 /var/www/html/japan.demo/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 /var/www/html/japan.demo/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#15 /var/www/html/japan.demo/index.php(84): Mage::run('', 'store')
+#16 {main}
+2016-07-20T07:47:00+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: MagentoGems_Ajax_Block_Cart_Sidebar' in /var/www/html/japan.demo/app/Mage.php:595
+Stack trace:
+#0 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('checkout/cart_s...', Array)
+#2 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('checkout/cart_s...', 'minicart_conten...')
+#3 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('checkout/cart_s...', 'minicart_conten...')
+#4 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#7 /var/www/html/japan.demo/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#8 /var/www/html/japan.demo/app/code/core/Mage/Catalog/Helper/Product/View.php(73): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#9 /var/www/html/japan.demo/app/code/core/Mage/Catalog/Helper/Product/View.php(144): Mage_Catalog_Helper_Product_View->initProductLayout(Object(Mage_Catalog_Model_Product), Object(Mage_Catalog_ProductController))
+#10 /var/www/html/japan.demo/app/code/core/Mage/Catalog/controllers/ProductController.php(132): Mage_Catalog_Helper_Product_View->prepareAndRender(2, Object(Mage_Catalog_ProductController), Object(Varien_Object))
+#11 /var/www/html/japan.demo/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Mage_Catalog_ProductController->viewAction()
+#12 /var/www/html/japan.demo/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('view')
+#13 /var/www/html/japan.demo/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#14 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#15 /var/www/html/japan.demo/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#16 /var/www/html/japan.demo/index.php(84): Mage::run('', 'store')
+#17 {main}
+2016-07-20T07:47:04+00:00 ERR (3): 
+exception 'Mage_Core_Exception' with message 'Invalid block type: MagentoGems_Ajax_Block_Cart_Sidebar' in /var/www/html/japan.demo/app/Mage.php:595
+Stack trace:
+#0 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/Layout.php(495): Mage::throwException('Invalid block t...')
+#1 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/Layout.php(437): Mage_Core_Model_Layout->_getBlockInstance('checkout/cart_s...', Array)
+#2 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/Layout.php(472): Mage_Core_Model_Layout->createBlock('checkout/cart_s...', 'minicart_conten...')
+#3 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/Layout.php(239): Mage_Core_Model_Layout->addBlock('checkout/cart_s...', 'minicart_conten...')
+#4 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/Layout.php(205): Mage_Core_Model_Layout->_generateBlock(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#5 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/Layout.php(206): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#6 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#7 /var/www/html/japan.demo/app/code/core/Mage/Core/Controller/Varien/Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#8 /var/www/html/japan.demo/app/code/core/Mage/Core/Controller/Varien/Action.php(269): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#9 /var/www/html/japan.demo/app/code/local/Bluecom/Magento1/controllers/CartController.php(52): Mage_Core_Controller_Varien_Action->loadLayout()
+#10 /var/www/html/japan.demo/app/code/core/Mage/Core/Controller/Varien/Action.php(418): Bluecom_Magento1_CartController->addAction()
+#11 /var/www/html/japan.demo/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('add')
+#12 /var/www/html/japan.demo/app/code/core/Mage/Core/Controller/Varien/Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#13 /var/www/html/japan.demo/app/code/core/Mage/Core/Model/App.php(365): Mage_Core_Controller_Varien_Front->dispatch()
+#14 /var/www/html/japan.demo/app/Mage.php(684): Mage_Core_Model_App->run(Array)
+#15 /var/www/html/japan.demo/index.php(84): Mage::run('', 'store')
+#16 {main}
